@@ -1,0 +1,50 @@
+body
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(170, 237, 175);
+}
+
+select
+{
+    width:150px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+button
+{
+    background-color: rgb(103, 185, 75);
+    font-weight: bold;
+    height:30px;
+    width:100px;
+    margin-top:20px;
+    margin-left: 30px;
+}
+
+section
+{
+    border: 1px solid rgb(8, 7, 7);
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article
+{
+    border:1px solid rgb(92, 92, 141);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+article > p:hover
+{
+    background-color: rgb(100, 162, 183);
+    border: 1px solid rgb(109, 109, 186);
+}
+
